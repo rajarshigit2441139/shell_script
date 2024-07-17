@@ -1,0 +1,8 @@
+PING www.google.com (142.250.193.164) 56(84) bytes of data.
+64 bytes from maa05s26-in-f4.1e100.net (142.250.193.164): icmp_seq=1 ttl=113 time=37.6 ms
+64 bytes from maa05s26-in-f4.1e100.net (142.250.193.164): icmp_seq=2 ttl=113 time=38.3 ms
+64 bytes from maa05s26-in-f4.1e100.net (142.250.193.164): icmp_seq=3 ttl=113 time=37.4 ms
+
+--- www.google.com ping statistics ---
+3 packets transmitted, 3 received, 0% packet loss, time 2004ms
+rtt min/avg/max/mdev = 37.406/37.789/38.340/0.399 ms

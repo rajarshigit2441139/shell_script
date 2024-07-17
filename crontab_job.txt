@@ -1,0 +1,16 @@
+If yo want a job repeat at same time over and over then use crontab.
+
+to set a crontab use command 'crontab -e' - it will take you in a vi editor.
+
+* Format:
+           * * * * * your command/commands ( cmd1 && cmd2 )/scripts
+
+          *      *      *      *      *          
+       minute  hour    date   month  day of week 
+        0-59   0-23    1-31   1-12    0-6 (sunday=0)
+
+
+* You can see your crontab jobs using 'crontab -l'
+
+
+* If you want to delete jobs, use crontab -e and delete the job line. 

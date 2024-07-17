@@ -1,0 +1,7 @@
+If you want to run your script in background, use 'nohup' command.
+
+eg: nohup ./script.sh & 
+
+it will print your output into nohup.out file.
+
+This process is useful when script can take long time or script should be running whether you are there or not.

@@ -1,0 +1,17 @@
+For one time job schedduling you have to use 'at' command. If you dont have do -> sudo apt install at
+
+syntax: 
+  
+ at time date month year [press ENTER]
+
+at> your command/script [ENTER}
+at> Ctrl + D
+
+* Specify date, month and year if needed.
+
+* You can check your job list using ->  'atq' command
+  eg: 1  Sun Aug 04 11:10:34 2024 a userName
+  Here, 1 is job ID, set by userName on 04 Aug 11:10 AM
+
+
+* You can delete your job using ->  'atrm <id>' command
